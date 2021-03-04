@@ -19,6 +19,15 @@ Feel free to adjust the defaults to your needs.
 }
 .voice1 {
 	font-style: italic;
+	display: block;
+	margin: 0 auto;
+	width: 50vw;
+}
+
+#video-placeholder {
+	width: 50vw;
+	margin: 0 auto;
+	display: block;
 }
 
 /* **********************************************
