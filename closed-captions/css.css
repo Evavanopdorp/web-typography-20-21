@@ -75,7 +75,9 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
+	font-family: "Brenner";
+	font-style: Italic;
+	font-weight: 800;
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
