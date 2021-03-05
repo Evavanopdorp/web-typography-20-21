@@ -42,15 +42,22 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
+
+[class*="p"] {
+	margin-top: 50px;	
+}
+
+/* styling p2 */
+
 .p0 span {
 	opacity: 0;
 	font-family: brenner;
-}
-.p0.on span:first-of-type {
+}	
+.p0.on{
 	opacity: 1;
 	transition: 1s;
 	font-weight: 200;
-	font-size: 10vh;
+	font-size: 5vh;
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
@@ -111,6 +118,20 @@ You probably want to change the styling.
 	/* font-family: "brenner slab"; */
 }
 
+/* styling p1 */
+
+.p1.on span {
+	color: pink;
+	font-family: "Brenner Display Black";
+}
+
+/* styling p2 */
+
+.p2.on span {
+	color: pink;
+	font-family: "Brenner Display Black";
+	margin-top: 40px;
+}
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
