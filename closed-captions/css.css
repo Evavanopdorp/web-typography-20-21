@@ -48,8 +48,9 @@ You probably want to change the styling.
 }
 .p0.on span:first-of-type {
 	opacity: 1;
-	transition: 0s;
+	transition: 1s;
 	font-weight: 200;
+	font-size: 10vh;
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
@@ -130,9 +131,6 @@ iframe {
 	transform: rotate(1turn);
 }
 
-.p0 {
-
-}
 
 /* **********************************************
 utils
