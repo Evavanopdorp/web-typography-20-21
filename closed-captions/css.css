@@ -44,7 +44,7 @@ You probably want to change the styling.
 ********************************************** */
 
 [class*="p"] {
-	margin-top: 50px;	
+	margin-top: 150px;	
 }
 
 /* styling p2 */
@@ -55,7 +55,7 @@ You probably want to change the styling.
 }	
 .p0.on{
 	opacity: 1;
-	transition: 1s;
+	transition: 0s;
 	font-weight: 200;
 	font-size: 5vh;
 }
@@ -121,23 +121,23 @@ You probably want to change the styling.
 /* styling p1 */
 
 .p1.on span {
-	color: pink;
-	font-family: "Brenner Display Black";
+	color: black;
+	font-family: "Brenner Mono";
 }
 
 /* styling p2 */
 
 .p2.on span {
-	color: pink;
-	font-family: "Brenner Display Black";
+	color: black;
+	font-family: "Brenner Mono";
 
 }
 
 /* styling p3 */
 
 .p3.on span {
-	color: pink;
-	font-family: "Brenner Display Black";
+	color: black;
+	font-family: "Brenner Mono";
 
 }
 /* **********************************************
@@ -149,7 +149,7 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-	background: blue;
+	background: lightpink;
 }
 
 iframe {
@@ -157,9 +157,11 @@ iframe {
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 iframe {
-	transform: rotate(1turn);
+	transform: rotate(20turn);
 }
-
+.sound1 iframe {
+	animation: 2s 3;
+}
 
 /* **********************************************
 utils
