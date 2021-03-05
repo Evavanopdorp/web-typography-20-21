@@ -130,7 +130,15 @@ You probably want to change the styling.
 .p2.on span {
 	color: pink;
 	font-family: "Brenner Display Black";
-	margin-top: 40px;
+
+}
+
+/* styling p3 */
+
+.p3.on span {
+	color: pink;
+	font-family: "Brenner Display Black";
+
 }
 /* **********************************************
 Sounds.
