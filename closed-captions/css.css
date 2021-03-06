@@ -43,9 +43,9 @@ p {
     font-weight: 800;
 }
 .voice3 {
-	font-family: "Brenner Display Black";
-    font-style: Normal;
-    font-weight: 400;
+	font-family: "Brenner Sans Condensed";
+	font-style: Normal;
+	font-weight: 800;
 }
 .voice4 {
 	font-family: "Brenner Mono";
@@ -203,26 +203,12 @@ iframe {
 	opacity: 1;
 	transition: 0s 1.6s;
 	font-weight: 1000;
-	position: relative;
-	animation-name: spin;
-	animation-duration: 2s;
-	animation-iteration-count: 2;
-	animation-direction: alternate;
-  }
-  
-  @keyframes spin {
-	from {
-		transform:rotate(0deg);
-	}
-	to {
-		transform:rotate(360deg);
-	}
 }
 
 .sound2 iframe {
 animation-name: spin;
-animation-duration: 2s;
-animation-delay: 1.6s;
+animation-duration: 1.4s;
+animation-delay: 1.8s;
 animation-iteration-count: 1;
 animation-direction: alternate;
 }
@@ -236,11 +222,208 @@ to {
 }
 }
 
-.sound2 iframe {
-	transition: 1s;
-	transition-delay: 2s;
-	transform: rotate(0deg);
-}
 .sound3 {
+	transition-delay: 0.7s;
 	background-color: lightblue;
 }
+
+.sound3 iframe {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	animation-delay: 0.6s;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+  }
+  
+  @keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
+  }
+
+.p4 span {
+	opacity: 0;
+}	
+.p4.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p4.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .2s;
+}
+.p4.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .4s;
+}
+.p4.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .6s;
+}
+.p4.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s 1.0s;
+}
+.p4.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 1.2s;
+}
+.p4.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s 1.6s;
+}
+.p4.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s 1.9s;
+}
+
+.p5 span {
+	opacity: 0;
+}	
+.p5.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p5.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+}
+.p5.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .2s;
+}
+.p5.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .5s;
+}
+.p5.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s 1.2s;
+}
+.p5.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 1.4s;
+}
+.p5.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s 1.8s;
+}
+.p5.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s 2.1s;
+}
+
+.p6 span {
+	opacity: 0;
+}
+
+.p6.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p6.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+	font-weight: 1000;
+}
+.p6.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .2s;
+	font-weight: 1000;
+}
+.p6.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .4s;
+	width: 400px;
+	height: 400px;
+	font-size: 200%;
+	background-color: lightblue;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;  
+  }
+  
+  @keyframes example {
+	0%   {background-color:lightblue; left:0px; top:0px;}
+	25%  {background-color:lightblue; left:200px; top:0px;}
+	50%  {background-color:lightblue; left:200px; top:300px;}
+	75%  {background-color:lightblue; left:0px; top:300px;}
+	100% {background-color:lightblue; left:0px; top:0px;}
+}
+
+  .sound5 {
+	transition-delay: 1.5s;
+	background-color: red;
+}
+
+.sound6 {
+	transition-delay: 6s;
+	background-color: lightblue;
+}
+
+.p7 span {
+	opacity: 0;
+}	
+.p7.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p7.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+}
+.p7.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .2s;
+}
+.p7.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .5s;
+}
+.p7.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s 1.2s;
+}
+.p7.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 1.4s;
+}
+.p7.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s 1.8s;
+}
+.p7.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s 2.7s;
+}
+.p7.on span:nth-of-type(8) {
+	opacity: 1;
+	transition: 0s 3.0s;
+}
+.p7.on span:nth-of-type(9) {
+	opacity: 1;
+	transition: 0s 3.2s;
+}
+.p7.on span:nth-of-type(10) {
+	opacity: 1;
+	transition: 0s 3.5s;
+}
+.p7.on span:nth-of-type(11) {
+	opacity: 1;
+	transition: 0s 3.7s;
+}
+
