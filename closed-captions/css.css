@@ -135,3 +135,112 @@ p {
 	transition: 0s .4s;
 	font-weight: 1000;
 }
+
+.sound1 {
+	background: red;
+}
+
+iframe {
+	transition: 2s;
+}
+
+.sound1 iframe {
+	transform: rotate(180deg);
+}
+
+.p2 span {
+	opacity: 0;
+	font-family: brenner;
+}	
+.p2.on{
+	opacity: 1;
+	transition: 0s;
+	font-weight: 200;
+	font-size: 5vh;
+}
+.p2.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .2s;
+}
+.p2.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .4s;
+}
+.p2.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .6s;
+}
+
+.p3 span {
+	opacity: 0;
+	font-family: brenner;
+}	
+.p3.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p3.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .2s;
+}
+.p3.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .6s;
+}
+.p3.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .8s;
+}
+.p3.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s 1.0s;
+}
+.p3.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 1.3s;
+}
+.p3.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s 1.6s;
+	font-weight: 1000;
+	position: relative;
+	animation-name: spin;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+  }
+  
+  @keyframes spin {
+	from {
+		transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+.sound2 iframe {
+animation-name: spin;
+animation-duration: 2s;
+animation-delay: 1.6s;
+animation-iteration-count: 1;
+animation-direction: alternate;
+}
+
+@keyframes spin {
+from {
+	transform:rotate(0deg);
+}
+to {
+	transform:rotate(360deg);
+}
+}
+
+.sound2 iframe {
+	transition: 1s;
+	transition-delay: 2s;
+	transform: rotate(0deg);
+}
+.sound3 {
+	background-color: lightblue;
+}
