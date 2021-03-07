@@ -10,6 +10,7 @@ p {
   font-size: 200%;
   text-align: center;
 }
+
 #video-placeholder {
 	width: 800px;
 	margin: 0 auto;
@@ -371,7 +372,7 @@ to {
 }
 
 .sound6 {
-	transition-delay: 6s;
+	transition-delay: 0s;
 	background-color: lightblue;
 }
 
@@ -424,6 +425,251 @@ to {
 }
 .p7.on span:nth-of-type(11) {
 	opacity: 1;
-	transition: 0s 3.7s;
+	transition: 0s 3.7s;	
 }
 
+.p8 span {
+}	
+.p8.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p8.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+	width: 400px;
+	height: 400px;
+	font-size: 100%;
+	background-color: lightblue;
+	position: relative;
+	animation-name: cells1;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;  
+  }
+  
+  @keyframes cells1 {
+	0%   {background-color:lightblue; left:0px; top:0px;}
+	25%  {background-color:lightblue; left:300px; top:0px;}
+	50%  {background-color:lightblue; left:300px; top:100px;}
+	75%  {background-color:lightblue; left:0px; top:100px;}
+	100% {background-color:lightblue; left:0px; top:0px;}
+}
+
+
+.p9 span {
+	opacity: 0;
+}	
+.p9.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p9.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+	width: 400px;
+	height: 400px;
+	font-size: 100%;
+	background-color: lightblue;
+	position: relative;
+	animation-name: cells2;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;  
+  }
+  
+  @keyframes cells2 {
+	0%   {background-color:lightblue; left:0px; top:0px;}
+	25%  {background-color:lightblue; left:300px; top:0px;}
+	50%  {background-color:lightblue; left:300px; top:100px;}
+	75%  {background-color:lightblue; left:0px; top:100px;}
+	100% {background-color:lightblue; left:0px; top:0px;}
+}
+
+.p10 span {
+	opacity: 0;
+}	
+.p10.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p10.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+}
+.p10.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .2s;
+}
+.p10.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .4s;
+}
+.p10.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s 0.6s;
+}
+.p10.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 0.8s;
+}
+.p10.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s 1.0s;
+}
+.p10.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s 1.2s;
+}
+
+.p11 span {
+	opacity: 0;
+}	
+.p11.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p11.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+	width: 400px;
+	height: 400px;
+	font-size: 100%;
+	background-color: lightblue;
+	position: relative;
+	animation-name: cells3;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;  
+  }
+  
+  @keyframes cells3 {
+	0%   {background-color:lightblue; left:0px; top:0px;}
+	25%  {background-color:lightblue; left:300px; top:0px;}
+	50%  {background-color:lightblue; left:300px; top:100px;}
+	75%  {background-color:lightblue; left:0px; top:100px;}
+	100% {background-color:lightblue; left:0px; top:0px;}
+}
+
+.p12 span {
+	opacity: 0;
+}	
+.p12.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p12.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+	width: 400px;
+	height: 400px;
+	font-size: 150%;
+	background-color: lightblue;
+	position: relative;
+	animation-name: cells4;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;  
+  }
+  
+  @keyframes cells4 {
+	0%   {background-color:lightblue; left:0px; top:0px;}
+	25%  {background-color:lightblue; left:300px; top:0px;}
+	50%  {background-color:lightblue; left:300px; top:100px;}
+	75%  {background-color:lightblue; left:0px; top:100px;}
+	100% {background-color:lightblue; left:0px; top:0px;}
+}
+
+.p13 span {
+	opacity: 0;
+}	
+.p13.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p13.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+}
+.p13.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .2s;
+}
+.p13.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .4s;
+}
+.p13.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s 0.6s;
+}
+.p13.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 0.8s;
+}
+.p13.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s 0.9s;
+}
+.p13.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s 1.0s;
+}
+
+.p14 span {
+	opacity: 0;
+}	
+.p14.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p14.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+	width: 400px;
+	height: 400px;
+	font-size: 100%;
+	background-color: lightblue;
+	position: relative;
+	animation-name: cells5;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;  
+  }
+  
+  @keyframes cells5 {
+	0%   {background-color:lightblue; left:0px; top:0px;}
+	25%  {background-color:lightblue; left:300px; top:0px;}
+	50%  {background-color:lightblue; left:300px; top:100px;}
+	75%  {background-color:lightblue; left:0px; top:100px;}
+	100% {background-color:lightblue; left:0px; top:0px;}
+}
+
+.p15 span {
+	opacity: 0;
+}	
+.p15.on{
+	opacity: 1;
+	transition: 0s;
+}
+.p15.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s 0s;
+	width: 400px;
+	height: 400px;
+	font-size: 200%;
+	background-color: lightblue;
+	position: relative;
+	animation-name: cells6;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;  
+  }
+  
+  @keyframes cells6 {
+	0%   {background-color:lightblue; left:0px; top:0px;}
+	25%  {background-color:lightblue; left:300px; top:0px;}
+	50%  {background-color:lightblue; left:300px; top:100px;}
+	75%  {background-color:lightblue; left:0px; top:100px;}
+	100% {background-color:lightblue; left:0px; top:0px;}
+}
