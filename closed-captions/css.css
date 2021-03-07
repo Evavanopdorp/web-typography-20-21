@@ -429,6 +429,7 @@ to {
 }
 
 .p8 span {
+	opacity: 0;
 }	
 .p8.on{
 	opacity: 1;
