@@ -9,6 +9,7 @@ p {
   font-weight: 700;
   font-size: 200%;
   text-align: center;
+  margin-top: 100px;
 }
 
 #video-placeholder {
@@ -33,6 +34,316 @@ p {
 	opacity: 0;
 }
 
+.sound0 iframe {
+	transition: 0.2s;
+	transform: scale(1.2);
+}
+
+.sound1 iframe {
+	transition: 0.2s;
+	transform: scale(1.4);
+}
+
+.sound2 iframe {
+	transition: 1s;
+	transform: scale(1);
+}
+
+.sound3 p{
+	margin-top: 25px;
+}
+
+.sound4 iframe {
+	animation: shake 1.2s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+  }
+  
+  @keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-5px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(10px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-20px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(20px, 0, 0);
+	}
+  }
+  .sound4 {
+	background: lightblue;
+	animation: mymove4 1.6s;
+	animation-iteration-count: 1;
+}
+
+@keyframes mymove4 {
+	from {background-color: lightblue;}
+	to {background-color: red;}
+}
+  .sound5 iframe {
+animation-name: spin;
+animation-duration: 2s;
+animation-iteration-count: 1;
+animation-direction: alternate;
+}
+
+@keyframes spin {
+	
+0% {
+	transform:rotate(0deg);
+}
+15% {
+	transform:rotate(-10deg);
+}
+85% {
+	transform:rotate(10deg);
+}
+100% {
+	transform:rotate(0deg);
+}
+}
+
+.sound5 {
+	background: lightblue;
+	animation: mymove5 1.8s;
+	animation-iteration-count: 1;
+}
+
+@keyframes mymove5 {
+	from {background-color: lightblue;}
+	to {background-color: red;}
+}
+
+.sound6 iframe {
+	animation-name: spin2;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	}
+	
+	@keyframes spin2 {
+		
+	0% {
+		transform:rotate(0deg);
+	}
+	15% {
+		transform:rotate(-10deg);
+	}
+	85% {
+		transform:rotate(10deg);
+	}
+	100% {
+		transform:rotate(0deg);
+	}
+	}
+
+	.sound7 iframe {
+		animation-name: spin3;
+		animation-duration: 2s;
+		animation-iteration-count: 1;
+		animation-direction: alternate;
+		}
+		
+		@keyframes spin3 {
+			
+		0% {
+			transform:rotate(0deg);
+		}
+		15% {
+			transform:rotate(-10deg);
+		}
+		85% {
+			transform:rotate(10deg);
+		}
+		100% {
+			transform:rotate(0deg);
+		}
+		}
+		.sound8 {
+			background: lightblue;
+			animation: mymove 50s;
+			animation-iteration-count: 1;
+		}
+		
+		@keyframes mymove {
+			from {background-color: lightblue;}
+			to {background-color: red;}
+		}
+
+		.sound9 {
+			background: red;
+			animation: mymove2 0.7s;
+			animation-iteration-count: 7;
+		}
+		
+		@keyframes mymove2 {
+			from {background-color: lightblue;}
+			to {background-color: red;}
+		}
+
+		.sound10 {
+			background: lightblue;
+			animation: mymove3 0.2s;
+			animation-iteration-count: 1;
+		}
+		
+		@keyframes mymove2 {
+			from {background-color: red;}
+			to {background-color: lightblue;}
+		}
+
+		.voice1 {
+			font-family: "Brenner Mono";
+			font-style: Normal;
+			font-weight: 200;
+		}
+		.voice2 {
+			font-family: "Brenner Mono";
+			font-style: Normal;
+			font-weight: 800;
+		}
+		.voice3 {
+			font-family: "Brenner Sans Condensed";
+			font-style: Normal;
+			font-weight: 800;
+		}
+		.voice4 {
+			font-family: "Brenner Mono";
+			font-style: Normal;
+			font-weight: 200;
+		}
+
+		.p0 span {
+			opacity: 0;
+			font-family: brenner;
+		}	
+		.p0.on{
+			opacity: 1;
+			transition: 0s;
+			font-weight: 200;
+			font-size: 5vh;
+		}
+		.p0.on span:nth-of-type(1) {
+			opacity: 1;
+			transition: 0s .2s;
+		}
+		.p0.on span:nth-of-type(2) {
+			opacity: 1;
+			transition: 0s .4s;
+		}
+		.p0.on span:nth-of-type(3) {
+			opacity: 1;
+			transition: 0s .5s;
+		}
+		.p0.on span:nth-of-type(4) {
+			opacity: 1;
+			transition: 0s .7s;
+		}
+		.p0.on span:nth-of-type(5) {
+			opacity: 1;
+			transition: 0s 1.1s;
+		}
+		.p0.on span:nth-of-type(6) {
+			opacity: 1;
+			transition: 0s 1.4s;
+		}
+		.p0.on span:nth-of-type(7) {
+			opacity: 1;
+			transition: 0s 1.7s;
+		}
+		.p0.on span:nth-of-type(8) {
+			opacity: 1;
+			transition: 0s 2s;
+		}
+		.p0.on span:nth-of-type(9) {
+			opacity: 1;
+			transition: 0s 3s;
+		}
+		.p0.on span:nth-of-type(10) {
+			opacity: 1;
+			transition: 0s 3.2s;
+		}
+		.p0.on span:nth-of-type(11) {
+			opacity: 1;
+			transition: 0s 3.7s;
+			font-weight: 1000;
+			animation: color-change 1s infinite;
+		}
+		
+		@keyframes color-change {
+		  0% { color: red; }
+		  50% { color: black; }
+		  100% { color: red; }
+		}
+
+		.p1 span {
+			opacity: 0;
+		}
+		
+		.p1.on{
+			opacity: 1;
+			transition: 0s;
+		}
+		.p1.on span:nth-of-type(1) {
+			opacity: 1;
+			transition: 0s .2s;
+			width: 400px;
+			height: 400px;
+			font-size: 100%;
+			background-color: lightblue;
+			position: relative;
+			animation-name: example;
+			animation-duration: 4s;
+			animation-iteration-count: 1;
+			animation-direction: alternate;  
+		}
+  
+		@keyframes example {
+		  0%   {background-color:lightblue; left:0px; top:0px;}
+		  25%  {background-color:lightblue; left:200px; top:0px;}
+		  50%  {background-color:lightblue; left:200px; top:300px;}
+		  75%  {background-color:lightblue; left:0px; top:300px;}
+		  100% {background-color:lightblue; left:0px; top:0px;}
+	  }
+		.p1.on span:nth-of-type(2) {
+			opacity: 1;
+			transition: 0s .4s;
+			width: 400px;
+			height: 400px;
+			font-size: 100%;
+			background-color: lightblue;
+			position: relative;
+			animation-name: example;
+			animation-duration: 4s;
+			animation-iteration-count: 1;
+			animation-direction: alternate;  
+		}
+  
+		@keyframes example {
+		  0%   {background-color:lightblue; left:0px; top:0px;}
+		  25%  {background-color:lightblue; left:200px; top:0px;}
+		  50%  {background-color:lightblue; left:200px; top:300px;}
+		  75%  {background-color:lightblue; left:0px; top:300px;}
+		  100% {background-color:lightblue; left:0px; top:0px;}
+	  }
+
+/*
+.sound1 {
+	background: lightblue;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: lightblue;}
+	to {background-color: red;}
+}
 .voice1 {
 	font-family: "Brenner Mono";
     font-style: Normal;
@@ -137,7 +448,7 @@ p {
 	font-weight: 1000;
 }
 
-.sound1 {
+.sound2 {
 	background: red;
 }
 
@@ -145,7 +456,7 @@ iframe {
 	transition: 2s;
 }
 
-.sound1 iframe {
+.sound2 iframe {
 	transform: rotate(180deg);
 }
 
