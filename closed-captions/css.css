@@ -143,7 +143,16 @@ animation-direction: alternate;
 		transform:rotate(0deg);
 	}
 	}
-
+	.sound6 {
+		background: lightblue;
+		animation: mymove6 1.6s;
+		animation-iteration-count: 1;
+	}
+	
+	@keyframes mymove6 {
+		from {background-color: lightblue;}
+		to {background-color: red;}
+	}
 	.sound7 iframe {
 		animation-name: spin3;
 		animation-duration: 2s;
@@ -166,6 +175,16 @@ animation-direction: alternate;
 			transform:rotate(0deg);
 		}
 		}
+		.sound7 {
+			background: lightblue;
+			animation: mymove7 1.6s;
+			animation-iteration-count: 1;
+		}
+		
+		@keyframes mymove7 {
+			from {background-color: lightblue;}
+			to {background-color: red;}
+		}
 		.sound8 {
 			background: lightblue;
 			animation: mymove 50s;
@@ -176,6 +195,7 @@ animation-direction: alternate;
 			from {background-color: lightblue;}
 			to {background-color: red;}
 		}
+
 
 		.sound9 {
 			background: red;
@@ -210,9 +230,7 @@ animation-direction: alternate;
 			font-weight: 800;
 		}
 		.voice3 {
-			font-family: "Brenner Sans Condensed";
-			font-style: Normal;
-			font-weight: 800;
+			font-family: "Brenner Display Black";
 		}
 		.voice4 {
 			font-family: "Brenner Mono";
@@ -297,7 +315,7 @@ animation-direction: alternate;
 			width: 400px;
 			height: 400px;
 			font-size: 100%;
-			background-color: lightblue;
+			background-color: transparent;
 			position: relative;
 			animation-name: example;
 			animation-duration: 4s;
@@ -306,11 +324,11 @@ animation-direction: alternate;
 		}
   
 		@keyframes example {
-		  0%   {background-color:lightblue; left:0px; top:0px;}
-		  25%  {background-color:lightblue; left:200px; top:0px;}
-		  50%  {background-color:lightblue; left:200px; top:300px;}
-		  75%  {background-color:lightblue; left:0px; top:300px;}
-		  100% {background-color:lightblue; left:0px; top:0px;}
+		  0%   {background-color:transparent; left:(160, 160, 160); left:0px; top:0px;}
+		  25%  {background-color:transparent; left:200px; top:0px;}
+		  50%  {background-color:transparent; left:200px; top:300px;}
+		  75%  {background-color:transparent; left:0px; top:300px;}
+		  100% {background-color:transparent; left:0px; top:0px;}
 	  }
 		.p1.on span:nth-of-type(2) {
 			opacity: 1;
@@ -325,6 +343,40 @@ animation-direction: alternate;
 			animation-iteration-count: 1;
 			animation-direction: alternate;  
 		}
+
+		.p6 span {
+			opacity: 0;
+		}
+		
+		.p6.on{
+			opacity: 1;
+			transition: 0s;
+		}
+		.p6.on span:nth-of-type(1) {
+			opacity: 1;
+			transition: 0s 0s;
+		}
+		.p6.on span:nth-of-type(2) {
+			opacity: 1;
+			transition: 0s .2s;
+		}
+		.p6.on span:nth-of-type(3) {
+			opacity: 1;
+			transition: 0s .4s;
+		  }
+		  .p8.on span:nth-of-type(1) {
+			opacity: 1;
+			transition: 0s .2s;
+			width: 400px;
+			height: 400px;
+			font-size: 100%;
+			background-color: transparent;
+			position: relative;
+			animation-name: example;
+			animation-duration: 4s;
+			animation-iteration-count: 1;
+			animation-direction: alternate;  
+		}
   
 		@keyframes example {
 		  0%   {background-color:lightblue; left:0px; top:0px;}
@@ -333,16 +385,234 @@ animation-direction: alternate;
 		  75%  {background-color:lightblue; left:0px; top:300px;}
 		  100% {background-color:lightblue; left:0px; top:0px;}
 	  }
+	  .p11 span {
+		opacity: 0;
+		font-size: 110%;
+	}
+	  .p11.on span:nth-of-type(1) {
+		opacity: 1;
+		transition: 0s .2s;
+		width: 400px;
+		height: 400px;
+		background-color: transparent;
+		position: relative;
+		animation-name: example1;
+		animation-duration: 4s;
+		animation-iteration-count: 1;
+		animation-direction: alternate;  
+	}
 
+	@keyframes example1 {
+	  0%   {background-color:transparent; left:0px; top:0px;}
+	  25%  {background-color:transparent; left:200px; top:0px;}
+	  50%  {background-color:transparent; left:200px; top:300px;}
+	  75%  {background-color:transparent; left:0px; top:300px;}
+	  100% {background-color:transparent; left:0px; top:0px;}
+  }
+
+  .p14 span {
+	opacity: 0;
+	font-size: 120%;
+}
+  .p14.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:300px;}
+  75%  {background-color:transparent; left:0px; top:300px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+
+.p17 span {
+	opacity: 0;
+	font-size: 130%;
+}
+  .p17.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:300px;}
+  75%  {background-color:transparent; left:0px; top:300px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+.p19 span {
+	opacity: 0;
+	font-size: 135%;
+}
+  .p19.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:300px;}
+  75%  {background-color:transparent; left:0px; top:300px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+.p22 span {
+	opacity: 0;
+	font-size: 140%;
+}
+  .p22.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:300px;}
+  75%  {background-color:transparent; left:0px; top:300px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+.p25 span {
+	opacity: 0;
+	font-size: 145%;
+}
+  .p25.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:300px;}
+  75%  {background-color:transparent; left:0px; top:300px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+.p28 span {
+	opacity: 0;
+	font-size: 150%;
+}
+  .p28.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:300px;}
+  75%  {background-color:transparent; left:0px; top:300px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+.p33 span {
+	opacity: 0;
+	font-size: 160%;
+}
+  .p33.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:300px;}
+  75%  {background-color:transparent; left:0px; top:300px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+.p36 span {
+	opacity: 0;
+	font-size: 165%;
+}
+  .p36.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:200px; top:0px;}
+  50%  {background-color:transparent; left:200px; top:300px;}
+  75%  {background-color:transparent; left:0px; top:300px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+
+
+
+
+
+		
 /*
 .sound1 {
 	background: lightblue;
     animation: mymove 3s infinite;
-}
-
-@keyframes mymove {
-    from {background-color: lightblue;}
-	to {background-color: red;}
 }
 .voice1 {
 	font-family: "Brenner Mono";
@@ -448,18 +718,7 @@ animation-direction: alternate;
 	font-weight: 1000;
 }
 
-.sound2 {
-	background: red;
 }
-
-iframe {
-	transition: 2s;
-}
-
-.sound2 iframe {
-	transform: rotate(180deg);
-}
-
 .p2 span {
 	opacity: 0;
 	font-family: brenner;
