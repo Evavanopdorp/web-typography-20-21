@@ -187,37 +187,94 @@ animation-direction: alternate;
 		}
 		.sound8 {
 			background: lightblue;
-			animation: mymove 50s;
+			animation: mymove8 50s;
 			animation-iteration-count: 1;
 		}
 		
-		@keyframes mymove {
+		@keyframes mymove8 {
 			from {background-color: lightblue;}
 			to {background-color: red;}
 		}
 
-
 		.sound9 {
 			background: red;
-			animation: mymove2 0.7s;
+			animation: mymove9 0.7s;
 			animation-iteration-count: 7;
 		}
 		
-		@keyframes mymove2 {
+		@keyframes mymove9 {
 			from {background-color: lightblue;}
 			to {background-color: red;}
 		}
 
 		.sound10 {
 			background: lightblue;
-			animation: mymove3 0.2s;
+			animation: mymove10 0.2s;
 			animation-iteration-count: 1;
 		}
 		
-		@keyframes mymove2 {
+		@keyframes mymove10 {
 			from {background-color: red;}
 			to {background-color: lightblue;}
 		}
+
+		.sound11 {
+			background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+			background-size: 400% 400%;
+			animation: gradient 8s ease infinite;
+			animation-timing-function: ease-in-out;
+		}
+		
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		.sound12 {
+			background: #23a6d5;
+			animation: mymove12 0.2s;
+			animation-iteration-count: 1;
+		}
+		
+		@keyframes mymove12 {
+			from {background-color: #23a6d5;}
+			to {background-color: #23a6d5}
+		}
+		.sound13 {
+			background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+			background-size: 400% 400%;
+			animation: gradient2 8s ease infinite;
+			animation-timing-function: ease-in-out;
+		}
+		
+		@keyframes gradient2 {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		.sound14 {
+			background: #23a6d5;
+			animation: mymove14 0.2s;
+			animation-iteration-count: 1;
+		}
+		
+		@keyframes mymove14 {
+			from {background-color: #23a6d5;}
+			to {background-color: #23a6d5}
+		}
+
 
 		.voice1 {
 			font-family: "Brenner Mono";
@@ -604,10 +661,81 @@ animation-direction: alternate;
   100% {background-color:transparent; left:0px; top:0px;}
 }
 
+.p41 span {
+	opacity: 0;
+}
+.p41.on span:nth-of-type(n-3) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example41;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
 
+@keyframes example41 {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:0px; top:0px;}
+  50%  {background-color:transparent; left:0px; top:500px;}
+  75%  {background-color:transparent; left:0px; top:500px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
 
+  .p42 span {
+	opacity: 0;
+}
 
+.p42 span {
+	opacity: 0;
+}
+.p42.on span:nth-of-type(n-3) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example42;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
 
+@keyframes example42 {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:0px; top:0px;}
+  50%  {background-color:transparent; left:0px; top:500px;}
+  75%  {background-color:transparent; left:0px; top:500px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+
+.p43 span {
+	opacity: 0;
+}
+.p43.on span:nth-of-type(n-3) {
+	opacity: 1;
+	transition: 0s .15s;
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	position: relative;
+	animation-name: example43;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;  
+}
+
+@keyframes example43 {
+  0%   {background-color:transparent; left:0px; top:0px;}
+  25%  {background-color:transparent; left:0px; top:0px;}
+  50%  {background-color:transparent; left:0px; top:500px;}
+  75%  {background-color:transparent; left:0px; top:500px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
 		
 /*
 .sound1 {
