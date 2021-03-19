@@ -4,7 +4,7 @@ Webtypografie einddocument
 
 ## Inleiding
 
-Voor dit vak kregen ik de opdracht om de closed captions van een filmfragment te visualiseren. Hierbij is een belangrijk gegeven dat de eindgebruiker, waarvoor ik dit mag ontwerpen voor mensen is die geen geluid kunnen horen. De uitdaging in deze is om de informatie die doelgroep mist, toch te visualiseren. 
+Voor dit vak kreeg ik de opdracht om de closed captions van een filmfragment te visualiseren. Hierbij is een belangrijk gegeven dat de eindgebruiker, waarvoor ik dit mag ontwerpen voor mensen is die geen geluid kunnen horen. De uitdaging in deze is om de informatie die doelgroep mist, toch te visualiseren. 
 
 Deze opdracht visualiseren wij voor Darice, zij is Frontend Developer en werkt aan de Hogeschool van Rotterdam. Darice is altijd al slechthorend geweest, maar is toen ze 26 was echt doof geworden. Omdat zij hiervoor dus wel geluid heeft kunnen horen, weet Darice wat ze mist. Darice geeft aan dat: leesbaarheid, het lettertype, contrast en kleuren belangrijke dingen zijn om over na te denken voor onze visualisatie. Zij ziet graag dat het ontwerp bruikbaar en subtiel is, terwijl Vasilis graag ziet dat we grenzen opzoeken en experimenteren. Hierbij is het dus belangrijk om te testen hoe ver ik kan gaan
 
